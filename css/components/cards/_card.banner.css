@@ -1,0 +1,154 @@
+.card-banner {
+	position: relative;
+	z-index: 1;
+	display: block;
+	width: 100%;
+	border: none;
+	background-color: #555555;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: #fff;
+	text-decoration: none;
+}
+
+.card-banner:hover {
+	color: rgba(255,255,255,.85);
+	text-decoration: none;
+}
+
+
+/* portrait */
+.card-banner-portrait {
+	min-height: 460px;
+	padding: 15px 20px;
+}
+
+.card-banner-portrait .card-banner-title {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 32px;
+}
+
+.card-banner-portrait .card-banner-title span {
+	display: inline-block;
+	margin: 2px 0;
+	padding: 0 5px;
+	background: #000;
+}
+/* portrait end */
+
+
+/* landscape */
+.card-banner-landscape {
+	min-height: 36px;
+	padding: 8px 10px;
+}
+
+.card-banner-landscape .card-banner-title {
+	font-size: 9px;
+	font-weight: 900;
+	line-height: 10px;
+}
+/* landscape end */
+
+
+@media (min-width: 480px) {
+	/* portrait */
+	.card-banner-portrait {
+		min-height: 325px;
+		padding: 15px 12px;
+	}
+
+	.card-banner-portrait .card-banner-title {
+		font-size: 17px;
+	}
+	/* portrait end */
+
+	
+	/* landscape */
+	.card-banner-landscape {
+		min-height: 55px;
+		padding: 10px 10px;
+	}
+
+	.card-banner-landscape .card-banner-title {
+		font-size: 12px;
+		line-height: 15px;
+	}
+	/* landscape end */
+}
+
+@media (min-width: 768px) {
+	/* portrait */
+	.card-banner-portrait {
+		min-height: 350px;
+		padding: 15px;
+	}
+
+	.card-banner-portrait .card-banner-title {
+		font-size: 18px;
+	}
+	/* portrait end */
+	
+	/* landscape */
+	.card-banner-landscape {
+		min-height: 90px;
+		padding: 20px 10px;
+	}
+
+	.card-banner-landscape .card-banner-title  {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	/* landscape end */
+}
+
+@media (min-width: 1024px) {
+	/* landscape */
+	.card-banner-landscape {
+		min-height: 118px;
+		padding: 25px 15px;
+	}
+
+	.card-banner-landscape .card-banner-title  {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	/* landscape end */
+}
+
+@media (min-width: 1200px) {
+	/* portrait */
+	.card-banner-portrait {
+		min-height: 465px;
+		padding: 35px;
+	}
+
+	.card-banner-portrait .card-banner-title {
+		font-size: 22px;
+	}
+	/* portrait end */
+
+
+	/* landscape */
+	.card-banner-landscape {
+		min-height: 150px;
+		padding: 35px 20px;
+	}
+
+	.card-banner-landscape .card-banner-title {
+		font-size: 25px;
+		line-height: 35px;
+	}
+	/* landscape end */
+}

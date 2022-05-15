@@ -1,0 +1,17 @@
+.order-grid {
+	overflow-x: hidden;
+	margin-bottom: 30px;
+}
+
+.order-grid .order-item {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+
+@media (min-width: 1024px) {
+	.order-grid {
+		margin-bottom: 60px;
+	}
+}

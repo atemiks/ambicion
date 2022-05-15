@@ -1,0 +1,101 @@
+.card-collection {
+	position: relative;
+	border: 1px solid #eeeeee;
+}
+
+.card-collection-label {
+	position: absolute;
+	z-index: 9;
+	top: 0;
+	left: 0;
+	padding: 10px 10px;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 1;
+}
+
+.card-collection .card-product .card-product-body {
+	padding-bottom: 15px;
+}
+
+.card-collection .swiper-collection {
+	position: static;
+	margin: 20px 38px;
+}
+
+.card-collection .swiper-collection .swiper-button-prev,
+.card-collection .swiper-collection .swiper-button-next {
+	display: block;
+	visibility: visible;
+}
+
+.card-collection .swiper-collection .swiper-button-prev {
+	left: 5px;
+}
+
+.card-collection .swiper-collection .swiper-button-next {
+	right: 5px;
+}
+
+.card-collection .swiper-collection .swiper-button-prev::before,
+.card-collection .swiper-collection .swiper-button-next::before {
+	background-color: #fff;
+}
+
+.card-collection .swiper-collection .swiper-button-prev::after,
+.card-collection .swiper-collection .swiper-button-next::after {
+	display: none;
+}
+
+
+@media (min-width: 480px) {
+	.card-collection .swiper-collection {
+		height: 330px;
+		margin: 20px 0;
+	}
+
+	.card-collection .swiper-collection .swiper-slide {
+		margin-bottom: 2px;
+	}
+
+	.card-collection .swiper-collection .swiper-button-prev,
+	.card-collection .swiper-collection .swiper-button-next {
+		width: 100%;
+		height: 40px;
+	}
+
+	.card-collection .swiper-collection .swiper-button-prev {
+		top: -25px;
+		left: 0;
+	}
+
+	.card-collection .swiper-collection .swiper-button-prev::before {
+		left: 50%;
+		transform: rotate(90deg) translate(-50%, 50%);
+	}
+
+
+	.card-collection .swiper-collection .swiper-button-next {
+		top: auto;
+		right: 0;
+		bottom: -25px;
+	}
+
+	.card-collection .swiper-collection .swiper-button-next::before {
+		right: 50%;
+		transform: rotate(90deg) translate(-50%, -50%);
+	}
+}
+
+@media (min-width: 1200px) {
+	.card-collection .swiper-collection {
+		height: 435px;
+		margin: 20px 0;
+	}
+
+	.card-collection .swiper-collection .swiper-slide {
+		margin-bottom: 2px;
+	}
+}

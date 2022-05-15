@@ -1,0 +1,54 @@
+.header-actions-box {
+	margin-left: -12px;
+	margin-right: -12px;
+}
+
+.header-action {
+	display: -webkit-inline-flex;
+	display: -ms-inline-flex;
+	display: inline-flex;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 12px 12px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+	text-decoration: none;
+}
+
+.header-action .header-action-title {
+	display: inline-block;
+	margin-left: 15px;
+	border-bottom: 1px solid rgba(255,255,255, .5);
+}
+
+.header-action .header-action-badge {
+	margin-left: 15px;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.header-action:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header-action:hover .header-action-title {
+	border-bottom-color: transparent;
+}
+
+
+@media (min-width: 480px) {
+	.header-actions-box {
+		margin-left: 0;
+		margin-right: 30px;
+	}
+}
+
+@media (min-width: 768px) {
+	.header-actions-box {
+		margin-left: -12px;
+		margin-right: -12px;
+	}
+}

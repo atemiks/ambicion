@@ -1,0 +1,186 @@
+.filter-box {
+	overflow: hidden;
+	margin: 10px 0;
+}
+
+
+.filter-header {
+	margin: 12px 0 0;
+}
+
+.filter-content {
+	width: 100%;
+}
+
+
+.filter-group {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	margin: 7px 0;
+}
+
+.filter-title {
+	display: inline-block;
+	margin: 0 15px 0 0;
+	color: #4f4f4f;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 28px;
+}
+
+
+/* range slider */
+.range-slider-wrapper {
+	max-width: 250px;
+	margin: 12px 0;
+}
+
+#range-slide-label-min,
+#range-slide-label-max {
+	position: absolute;
+	width: 50px;
+	color: #7f7f7f;
+	font-size: 12px;
+	font-weight: 300;
+	white-space: nowrap;
+	text-align: center;
+}
+
+#range-slide-label-min span,
+#range-slide-label-max span {
+	margin-left: 5px;
+}
+/* range slider end */
+
+
+/* colors */
+.filter-colors-box {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.filter-color input[type="checkbox"] {
+	display: none;
+}
+
+.filter-color input[type="checkbox"] + label {
+	cursor: pointer;
+	margin: 4px;
+	font-size: 16px;
+	line-height: 1;
+	
+}
+
+.filter-color input[type="checkbox"] + label {
+	position: relative;
+}
+
+.filter-color input[type="checkbox"] + label::before {
+	content: '';
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: -4px;
+	left: -4px;
+	right: -4px;
+	bottom: -4px;
+    border: 2px solid #e4e4e4;
+    border-radius: 50%;
+}
+
+.filter-color input[type="checkbox"] + label img {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+.filter-color input[type="checkbox"]:checked + label::before {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+/* sort */
+.filter-sort-box {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.filter-sort-action {
+	position: relative;
+	margin: 0;
+	padding: 0 15px;
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	color: #a0a0a0;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 28px;
+	text-decoration: underline;
+}
+
+.filter-sort-action::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0;
+	height: 10px;
+	border-right: 1px solid #e4e4e4;
+	transform: translateY(-50%);
+}
+
+.filter-sort-action:hover {
+	color: rgba(160,160,160,.85);
+}
+
+.filter-sort-action:focus {
+	outline: none;
+}
+
+.filter-sort-action.is-active {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.filter-sort-action:last-child::after {
+	display: none;
+}
+
+
+@media (min-width: 768px) {
+	.filter-box {
+		overflow: visible;
+	}
+
+	.filter-group {
+		margin: 10px 0;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.filter-group {
+		margin: 25px 0;
+	}
+
+	.filter-sort-box {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.filter-sort-action {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}

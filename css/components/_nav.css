@@ -1,0 +1,24 @@
+.nav {
+	line-height: 1;
+}
+
+.nav-item {
+	-ms-align-self: flex-start;
+	align-self: flex-start;
+}
+
+.nav-link {
+	margin: 4px 0;
+	padding: 0;
+	border-bottom: 1px solid rgba(0,0,0,.5);
+	color: #222222;
+	font-size: 16px;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	border-bottom-color: transparent;
+	color: #222222;
+	text-decoration: none;
+}

@@ -1,0 +1,17 @@
+.section-categories {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.categories-grid {
+	overflow: hidden;
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+
+@media (min-width: 1024px) {
+	.categories-grid {
+		margin-bottom: 30px;
+	}
+}

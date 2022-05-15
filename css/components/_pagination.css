@@ -1,0 +1,111 @@
+.pagination {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+.pagination .page-item {
+	margin: 4px;
+}
+
+.pagination .page-link {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	border: 2px solid #e9e4e4;
+	border-radius: 50%;
+	color: #adadad;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.pagination .page-link:hover {
+	background-color: rgba(229,229,229,.15);
+	text-decoration: none;
+}
+
+
+.pagination .page-link.page-prev,
+.pagination .page-link.page-next {
+	width: auto;
+	border: none;
+	border-radius: 0;
+	color: #000000;
+	font-size: 14px;
+}
+
+.pagination .page-link.page-prev img {
+	position: relative;
+	left: 0;
+	margin-right: 15px;
+	transition: left 300ms ease;
+}
+
+.pagination .page-link.page-next img {
+	position: relative;
+	right: 0;
+	margin-left: 15px;
+	transition: right 300ms ease;
+}
+
+.pagination .page-link.page-prev:hover,
+.pagination .page-link.page-next:hover {
+	background: transparent;
+}
+
+.pagination .page-link.page-prev:hover img {
+	left: -3px;
+}
+
+.pagination .page-link.page-next:hover img {
+	right: -3px;
+}
+
+
+.pagination .page-item.active .page-link {
+	background-color: #e5e5e5;
+	color: #000;
+}
+
+
+@media (min-width: 768px) {
+	.pagination {
+		margin: 30px 0;
+	}
+}
+
+@media (min-width: 1024px) {
+	.pagination {
+		margin: 38px 0;
+	}
+
+	.pagination .page-item {
+		margin: 7px;
+	}
+
+	.pagination .page-link {
+		width: 40px;
+		height: 40px;
+		border: 2px solid #e9e4e4;
+		font-size: 20px;
+	}
+
+
+	.pagination .page-link.page-prev,
+	.pagination .page-link.page-next {
+		font-size: 15px;
+	}
+}

@@ -1,0 +1,30 @@
+.ui-slider-horizontal {
+	height: 3px;
+	border: none;
+	border-radius: 0;
+	background-color: #cdcdcd;
+}
+
+
+.ui-slider-range {
+	background-color: #000;
+}
+
+.ui-slider .ui-slider-handle {
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	background-color: #000;
+}
+
+.ui-slider .ui-slider-handle:focus {
+	outline: none;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+	top: 50%;
+	margin-left: 0;
+	transform: translate(-50%, -50%);
+}

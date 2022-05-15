@@ -1,0 +1,19 @@
+.footer-logo-box {
+	margin: 0 15px;
+}
+
+.footer-logo-box .logo-thumbnail {
+	flex: 0 0 28px;
+	max-width: 28px;
+	width: 28px;
+}
+
+
+@media (min-width: 480px) {
+	.footer-logo-box {
+		margin: 0;
+	}
+}
+
+@media (min-width: 768px) {
+}

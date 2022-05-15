@@ -1,0 +1,26 @@
+.footer-develop {
+	max-width: 155px;
+	margin: 30px 0 0 60px;
+	color: #5f5555;
+	font-size: 14px;
+}
+
+
+@media (min-width: 480px) {
+	.footer-develop {
+		margin: 20px 0 0 60px;
+	}
+}
+
+@media (min-width: 768px) {
+	.footer-develop {
+		max-width: 70px;
+		margin: 0;
+	}
+}
+
+@media (min-width: 1024px) {
+	.footer-develop {
+		max-width: 155px;
+	}
+}

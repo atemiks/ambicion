@@ -1,0 +1,16 @@
+.page-home.page-content {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+@media (min-width: 1024px) {
+	.page-home.page-content {
+		margin-top: -65px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.page-home.page-content {
+		margin-top: -60px;
+	}
+}

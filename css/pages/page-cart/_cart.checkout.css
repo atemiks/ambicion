@@ -1,0 +1,12 @@
+.checkout-group {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+@media (min-width: 1024px) {
+	.checkout-group {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+}

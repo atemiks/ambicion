@@ -1,0 +1,77 @@
+@import './components/_fonts.css';
+@import './components/_base.css';
+@import './components/_logo.css';
+@import './components/_nav.css';
+@import './components/_nav.tabs.css';
+@import './components/_forms.css';
+@import './components/_buttons.css';
+@import './components/_breadcrumb.css';
+@import './components/_pagination.css';
+@import './components/_develop.css';
+@import './components/_offcanvas.css';
+@import './components/_modal.css';
+@import './components/_modal.order.css';
+@import './components/_filter.css';
+@import './components/_swiper.css';
+@import './components/_ui-slider.css';
+
+
+/* header */
+@import './layout/header/_header.css';
+@import './layout/header/_header.logo.css';
+@import './layout/header/_header.nav.css';
+@import './layout/header/_header.action.css';
+@import './layout/header/_header.contact.css';
+@import './layout/header/_header.megamenu.css';
+
+/* sections */
+@import './sections/_section.category.css';
+@import './sections/_section.subcategory.css';
+@import './sections/_section.products.css';
+@import './sections/_section.advantage.css';
+@import './sections/_section.about.css';
+@import './sections/_section.catalog.css';
+@import './sections/_section.popular.css';
+@import './sections/_section.product.css';
+@import './sections/_section.watched.css';
+@import './sections/_section.similar.css';
+
+/* cards */
+@import './components/cards/_card.banner.css';
+@import './components/cards/_card.category.css';
+@import './components/cards/_card.collection.css';
+@import './components/cards/_card.subcategory.css';
+@import './components/cards/_card.product.css';
+@import './components/cards/_card.advantage.css';
+@import './components/cards/_card.order.css';
+
+/* page home */
+@import './pages/page-home/_home.css';
+
+/* page product */
+@import './pages/page-product/_product.css';
+@import './pages/page-product/_product.header.css';
+@import './pages/page-product/_product.label.css';
+@import './pages/page-product/_product.gallery.css';
+@import './pages/page-product/_product.attribute.css';
+@import './pages/page-product/_product.status.css';
+@import './pages/page-product/_product.price.css';
+@import './pages/page-product/_product.actions.css';
+@import './pages/page-product/_product.info.css';
+@import './pages/page-product/_product.nav.css';
+@import './pages/page-product/_product.specifications.css';
+@import './pages/page-product/_product.collections.css';
+
+/* page cart */
+@import './pages/page-cart/_cart.css';
+@import './pages/page-cart/_cart.order.css';
+@import './pages/page-cart/_cart.checkout.css';
+@import './pages/page-cart/_cart.total.css';
+
+/* footer */
+@import './layout/footer/_footer.css';
+@import './layout/footer/_footer.logo.css';
+@import './layout/footer/_footer.nav.css';
+@import './layout/footer/_footer.contact.css';
+@import './layout/footer/_footer.copyright.css';
+@import './layout/footer/_footer.develop.css';

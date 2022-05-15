@@ -1,0 +1,40 @@
+.section-subcategory {
+	overflow: hidden;
+	position: relative;
+	padding-top: 0;
+	padding-bottom: 0;
+	background-color: #ededee;
+}
+
+.subcategory-grid {
+	overflow-x: auto;
+	overflow-y: hidden;
+	margin-bottom: 20px;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: none;
+}
+
+.subcategory-grid::-webkit-scrollbar {
+  display: none;
+}
+
+
+@media (min-width: 768px) {
+	.section-subcategory {
+		background-image: url('../../images/page-catalog/section-subcategory/section-subcategory-bg.jpg');
+		background-position: 50% top;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.subcategory-grid {
+		margin-bottom: 30px;
+	}
+
+	.section-subcategory {
+		background-position: 70% top;
+	}
+}

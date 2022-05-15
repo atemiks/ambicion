@@ -1,0 +1,24 @@
+.section-product {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.product-headline {
+	margin: 15px 0 18px;
+}
+
+
+.product-devider {
+	margin: 20px 0;
+	height: 12px;
+	background: url('../../images/section-divider.png');
+}
+
+
+@media (min-width: 768px) {
+	.section-product {
+		padding-top: 60px;
+		padding-bottom: 40px;
+	}
+}

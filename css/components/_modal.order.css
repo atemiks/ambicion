@@ -1,0 +1,15 @@
+#modalOrderTouch .order-grid {
+	overflow-y: auto;
+	max-height: 310px;
+	margin-bottom: 15px;
+}
+
+#modalOrderTouch .card-order-thumbnail {
+	padding-bottom: 85%;
+}
+
+
+#modalOrderTouch .cart-total-box {
+	padding: 0;
+	border: none;
+}

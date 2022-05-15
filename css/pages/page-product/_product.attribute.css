@@ -1,0 +1,20 @@
+.product-attributes {
+	color: #000000;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.3;
+}
+
+.product-attribute-item {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	margin: 12px 0;
+}
+
+
+
+.product-attribute-title {
+	margin-right: 15px;
+	color: #919191;
+}

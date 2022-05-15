@@ -1,0 +1,14 @@
+.footer-nav {
+	margin: 0 0 0 54px;
+}
+
+.footer-nav .nav-link {
+	margin: 4px 6px;
+
+}
+
+@media (min-width: 768px) {
+	.footer-nav {
+		margin: 0;
+	}
+}

@@ -1,0 +1,87 @@
+.btn {
+	outline: none;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flex;
+	display: inline-flex;
+	-ms-align-items: center;
+	align-items: center;
+	height: 50px;
+	padding: 0 25px;
+	border: none;
+	border-radius: 0;
+	background-color: #000;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1;
+	text-decoration: none;
+	white-space: nowrap;
+}
+.btn img {
+	flex: 0 0 32px;
+	max-width: 32px;
+	width: 32px;
+	margin-right: 5px;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn:hover {
+	background-color: rgba(0,0,0,.85);
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.btn-link {
+	background: none;
+	color: #000;
+	text-decoration: underline;
+}
+
+.btn-link:hover {
+	text-decoration: none;
+}
+
+
+
+.btn-fluid {
+	width: 100%;
+	justify-content: center;
+}
+
+
+.btn-close {
+	cursor: pointer;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background: none;
+}
+
+.btn-close img {
+	width: 14px;
+}
+
+.btn-close:focus {
+	outline: none;
+}
+
+
+.btn-collapse {
+	outline: none;
+	cursor: pointer;
+	border: none;
+	border-radius: 0;
+}

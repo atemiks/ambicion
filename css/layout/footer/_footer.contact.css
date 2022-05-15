@@ -1,0 +1,45 @@
+.footer-contact-box {
+	margin: 20px 0 15px 60px;
+}
+
+.footer-contact {
+	padding: 2px 0;
+	border: none;
+	color: #000000;
+	font-size: 18px;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.footer-contact:hover {
+	color: rgba(0,0,0,0.7);
+	text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+	.footer-contact-box {
+		margin: 20px 0 15px 40px;
+	}
+}
+
+@media (min-width: 768px) {
+	.footer-contact-box {
+		margin: -4px 0;
+	}
+
+	.footer-contact {
+		padding: 4px 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.footer-contact-box {
+		margin: -7px 0;
+	}
+
+	.footer-contact {
+		padding: 7px 0;
+		font-size: 20px;
+	}
+}

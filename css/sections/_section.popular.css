@@ -1,0 +1,52 @@
+.section-popular {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #eeeeee;
+}
+
+.section-popular .section-header {
+	margin-bottom: 20px;
+}
+
+.section-popular .section-title {
+	margin: 0;
+}
+
+.popular-title {
+	margin: 0 0 5px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+
+.popular-nav {
+	margin: 0 0 20px;
+}
+
+.popular-nav .nav-link {
+	border-bottom-color: transparent;
+	font-size: 14px;
+}
+
+.popular-nav .nav-link:hover {
+	border-bottom-color: rgba(0,0,0,.5);
+}
+
+
+@media (min-width: 768px) {
+	.section-popular .section-header {
+		margin-bottom: 15px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.section-popular .section-header {
+		margin-bottom: 20px;
+	}
+
+	.popular-title {
+		margin: 0 0 5px;
+		font-size: 15px;
+		line-height: inherit;
+	}
+}
